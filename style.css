@@ -1,0 +1,675 @@
+*{
+    margin: 0;
+    padding:0;
+   text-decoration-line: none;
+   
+
+}
+#navbar{
+    width:95%;
+  /* border:red 1px solid;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+   /* margin: 0 auto;*/
+    position: fixed;
+    transform: translate(2.5%);
+    
+}
+#menuitems {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width: 70%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    
+}
+#menuitems a:hover{
+    color: red;
+
+}
+#sociallinks{
+    width: 10%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    color: white;
+   
+}
+#sidemenuitem{color:white}
+
+/*banner*/
+#banner{
+    width: 100%;
+    height:445px ;
+    background-image:url("img/bg-title-page-03.jpg");
+    background-position: center;
+    color: white;
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*resturent*/
+#resturent{
+    text-align: center;
+}
+#resturent h2{
+    color:red;
+    font-style: italic;
+
+}
+#resturent h1{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 50px;
+    
+}
+#resturent p{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    /*line-height: 1.7px;*/
+    color:grey;
+    margin: 255px;
+    margin-top: auto;
+  
+}
+/*discover*/
+#discover{
+    width: 100%;
+    height: 720px;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url(img/header-menu-01.jpg);
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+
+}
+#discovertext{
+    width: 45%;
+}
+#discover h2{
+    color: red;
+    font-style: italic;
+     text-align:center;
+}
+#discover h1{
+    font-size: 38px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Poppins;
+    color:white;
+}
+#playbutton{
+    width: 77px ;
+    height: 77px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#playbutton:hover{
+   background-color: red;
+
+}
+
+
+/*recipes*/
+#recipes{
+    text-align: center;
+    padding:35px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#recipestext{
+    width: 45%;
+}
+#recipes h2{
+    color: red;
+    font-style: italic;
+    font-family: Courgette;
+}
+    
+#recipes h1{
+    font-size: 38px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Poppins;
+}
+#recipes p{
+    color: grey;
+}
+#recipesimg{
+    width: 390px;
+    height: 390px;
+    border-radius: 15px;
+    background-image: url(img/our-story-01.jpg);
+    background-size: 100%;
+    background-position:center;
+    transition: all 1s;
+}
+#recipesimg:hover{
+    background-size: 120%;
+    transition: all 1.5s;
+
+}
+/*romantic*/
+#romantic{
+    text-align: center;
+    padding:50px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items:center;
+    align-content: center;
+    
+
+}
+#romanticimg{
+    width: 390px;
+    height: 390px;
+    border-radius: 20px;
+    background-image: url(img/blog-01.jpg);
+    background-size: 650px;
+    background-position:center;
+    transition: all 1s;
+
+}
+#romanticimg:hover{
+    background-size: 670px;
+    transition:all 1.5s;
+}
+#romantictext{
+    width: 45%;
+}
+#romantic h2{
+    color: red;
+    font-style: italic;
+    font-family: Courgette;
+}
+#romantic h1{
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Poppins;
+}
+#romantic p{
+    color: gray;
+}
+/*photo*/
+#photoimg{
+    width: 100%;
+    height: 616px;
+    background-image:url(img/bg-cover-video-02.jpg);
+    text-align: center;
+    background-position: center;
+    background-attachment: fixed;}
+    
+#chef{
+    width: 90%;
+    height: 90%;
+    padding: 10% 5%;
+    background-color: white;
+
+}
+#header-chef{
+    text-align: center;
+}
+h2{
+        font-family: Courgette;
+        font-size: 30px;
+        color: red;
+        font-style: italic;
+}
+h1{
+    font-family: Poppins;
+    font-weight: 700px;
+    font-size: 50px;
+    line-height: 1.2;
+   /* color: #222222;*/
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 8px;
+    
+}
+
+#chefs{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+#chefname{
+    width: 350px;
+    height: 350px;
+    padding: 30px 50px;
+    width: 50%;
+    margin: 40px 55px;
+    text-align: center;
+    display: contents;
+}
+#chefname p{
+    width: 250px;
+    padding: 25px 75px;
+    color: rgba(102,102,102.1);
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 15px;
+    font-family: montserrat;
+
+}
+#img1,#img2,#img3{
+    background-image: url(img/avatar-02.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    border-radius: 50%;
+    border: 5px red solid;
+    background-repeat: 100%;
+    background-position: center;
+    margin-bottom: 15px;
+    justify-content: center;
+    transition: all 3s;
+}
+#img2{background-image:url(img/avatar-03.jpg);}
+#img3{background-image: url(img/avatar-05.jpg);}
+#img1:hover,#img2:hover,#img3:hover{
+    background-size: 110%;
+    transition: all 3s;
+}
+
+fieldset{
+    width: 30%;
+    height: 450px;
+    text-align: center;
+    border: 2px #e6e6e6 solid;
+}
+#chefs.peter{
+    padding: 40%;}
+
+
+h3{
+    
+    text-align: center;
+    letter-spacing: 3px;
+    color:black;
+}
+h3:hover{
+    color: red;
+}
+
+#section-signup{
+    padding-bottom: 85px;
+    padding-top: 85px;
+    background-image: url(img/pattern1.png);
+    width: 100%;
+    background-repeat: repeat;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+
+    
+}
+#flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529
+}
+#special-signup{
+    font-weight: 500;
+    font-size: 22px;
+    color: #333333;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: Poppins;
+}
+#input-email{
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #d8d8d8;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    margin: 10px;
+    background-color: white;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    line-height: 1.5;
+
+   
+}
+#email{
+    width: 100%;
+    height: 100%;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    border-radius: 10px;
+    padding-left: 20px;
+    display: inline-block;
+    text-align: start;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    
+}
+#button-email{
+    margin-right: 18px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    font-size: inherit;
+    color: #666666;
+    
+}
+#sign{
+    width: 160px;
+    height: 40px;
+    background: #111111;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.1;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+    text-align: center;
+    font: 400 13.3333px Arial;
+    box-sizing: border-box;
+    cursor: pointer;
+ 
+}
+#sign:hover{
+    background-color: red;
+}
+/*footer*/
+#bg1{
+    background-color: #222020;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    width:100%;
+    height: 566px;
+}
+#container{
+    max-width: 1200px;
+    padding-bottom: 70px;
+    padding-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    display: block;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    
+}
+#row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+#contact{
+    padding-top: 50px;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+#row1,#second,#app,#galary{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 33px;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#inf{
+    margin-bottom: 70px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+#location,#tele,#email,#watch,#day{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.7;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+    display: list-item;
+}
+#row2{
+    padding-top: 50px;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+   
+}
+#one{
+    margin-bottom: 25px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+#color{
+    color: #cccccc;
+    margin-right: 5px;
+    font-size: 13px;
+    line-height: 1.5;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+}
+#fa{
+    display: inline-block;
+    color: #cccccc;
+}
+#link{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ec1d25;
+    line-height: 1.7;
+    transition: all 0.4s;
+}
+#pragragh{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.7;
+    margin-bottom: 18px;
+    display: block;
+}
+#date{
+    
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    color: #555555;
+    line-height: 1.5;
+
+}
+#row3{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    display: block;
+    padding-top: 50px;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+#galares{
+    margin: 20px auto; 
+    width: 377px;
+    height: 300px;
+    display: grid;
+   /* background-color:black;*/
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+    justify-content: flex-start;
+    /*gap: 10px 10px;*/
+}
+#g1,#g2,#g3,#g4,#g5,#g6,#g7,#g8,#g9,#g10,#g11,#g12{
+    background-image:url(img/photo-gallery-thumb-01.jpg);
+    vertical-align: middle;
+    background-size: 100%;
+    width: 80px;
+    height: 80px;
+
+}
+#g2{background-image: url(img/photo-gallery-thumb-02.jpg);}
+#g3{background-image: url(img/photo-gallery-thumb-03.jpg);}
+#g4{background-image: url(img/photo-gallery-thumb-04.jpg);}
+#g5{background-image: url(img/photo-gallery-thumb-05.jpg);}
+#g6{background-image: url(img/photo-gallery-thumb-06.jpg);}
+#g7{background-image: url(img/photo-gallery-thumb-07.jpg);}
+#g8{background-image: url(img/photo-gallery-thumb-08.jpg);}
+#g9{background-image: url(img/photo-gallery-thumb-09.jpg);}
+#g10{background-image: url(img/photo-gallery-thumb-10.jpg);}
+#g11{background-image: url(img/photo-gallery-thumb-11.jpg);}
+#g12{background-image: url(img/photo-gallery-thumb-12.jpg);}
+
+#g1,#g2,#g3,#g4,#g5,#g6,#g7,#g8,#g9,#g10,#g11,#g12:hover{
+    color: red;}
+
+#endfooter{
+    background-color:black;
+    width: 100%;
+    height: 79px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#c{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+#contain{
+    padding-top: 22px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+
+#finally{
+    margin-top: auto;
+    width: 10%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+   
+}
+#d{
+    color: white;
+}
+
+   
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
